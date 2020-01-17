@@ -5,7 +5,7 @@ package practicearrays;
 public class Student {
     private int id;
     private String name;
-    private String h;
+    private int age;
  
 
 
@@ -38,17 +38,17 @@ public class Student {
     }
 
     /**
-     * @return the h
+     * @return the age
      */
-    public String getH() {
-        return h;
+    public int getAge() {
+        return age;
     }
 
     /**
-     * @param h the h to set
+     * @param age the age to set
      */
-    public void setH(String h) {
-        this.h = h;
+    public void setH(int age) {
+        this.age = age;
     }
     
 }
